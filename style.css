@@ -8,21 +8,22 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: auto;
 
 }
 .scoreboard{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 600px;
-    max-width: 600px;
     background-color: #f8f9fa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    min-height: 90vh;
     gap: 15px;
-    min-width: 70vh;;
+    min-height: 90vh;
+    width: 100%;
+    max-width: 600px; /* limits how big it can stretch */
+    border: 10px solid black;
 }
 
 .title {
@@ -61,7 +62,7 @@ body{
     padding: 20px;
     margin-left: auto;
     margin-right: auto ;
-
+    border: 10px solid black;
 }
 
 .score-buttons button{
