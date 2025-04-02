@@ -12,7 +12,7 @@ A clean and interactive ScoreBoard built using **HTML**, **CSS**, and **JavaScri
 
 ## 📸 Preview
 
-![ScoreBoard Screenshot](./image.png)
+![ScoreBoard Screenshot](preview.png)
 
 ## 🚀 Getting Started
 
