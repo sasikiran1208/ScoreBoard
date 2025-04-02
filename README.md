@@ -19,13 +19,17 @@ A clean and interactive ScoreBoard built using **HTML**, **CSS**, and **JavaScri
 **🧑‍💻 Usage**
 
 Click on +1, +2, or +3 to add points to the respective team
+
 Click Compare to see which team is leading
+
 Click Reset to restart the scores
 
 **💡 Technologies Used**
 
 HTML5
+
 CSS3
+
 JavaScript (ES6)
 
 **📂 Project Structure**
