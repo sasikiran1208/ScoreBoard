@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="scoreboard">
+        <h1 class="title">ScoreBoard</h1>
+        <div class="teams">
+        <div class="team">
+            <h2>Home</h2>
+                <div class ="score" id="home-score">0</div>
+                <div class = "score-buttons">
+                    <button class="score-button" id="home-score-1" onclick="add('home' , 1)">+1</button>
+                    <button class="score-button" id="home-score-2" onclick="add('home' , 2)">+2</button>
+                    <button class="score-button" id="home-score-3" onclick="add('home' , 3)">+3</button>
+                </div>
+        </div>    
+            <div class="team">
+            <h2>GUEST</h2>
+                <div class ="score" id="guest-score">0</div>
+                <div class = "score-buttons">
+                    <button class="score-button" id="guest-score-1" onclick="add('guest',1)">+1</button>
+                    <button class="score-button" id="guest-score-2" onclick="add('guest',2)">+2</button>
+                    <button class="score-button" id="guest-score-3" onclick="add('guest',3)">+3</button>
+                </div>
+                </div>
+        </div>
+        <p id="compare-result" class="compare-result"></p>
+        <div class="compare"><button id="score-comapre" onclick="compare()">Compare </button></div>
+        <div class="reset"><button id="score-reset" onclick = "reset()">Reset</button></div>
+        </div>
+    </div>
+</body>
+</html>
